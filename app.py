@@ -14,7 +14,7 @@ import joblib
 
 model = joblib.load("xgboost_model.pkl")
 
-st.title("⚙️ Predictive Maintenance System")
+st.title("⚙️ Predictive Machine Failure")
 st.write("Enter machine operating details to predict machine failure.")
 
 # User inputs
